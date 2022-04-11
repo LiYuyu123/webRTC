@@ -143,6 +143,13 @@ export default {
       }
     }
   },
+  watch: {
+    socket: {
+      handler(val) {
+        console.log(val)
+      }
+    }
+  },
   methods: {
     //获取url参数
     getUrlKey() {
